@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Snake</title>
+    <style>
+        canvas {
+            margin: 10px;
+            background-color: #01fa0d;
+            border: solid brown 4px;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <p>SCORE: <span id="score">0</span></p>
+    <canvas id="game" width="480" height="480"></canvas>
+    <label for="difficulty">LEVEL:</label>
+    <select id="difficulty">
+        <option value="2">easy</option>
+        <option value="6" selected>middle</option>
+        <option value="12">hard</option>
+    </select>
+    
+    <script src="JS/script.js"></script>
+</body>
+</html>
